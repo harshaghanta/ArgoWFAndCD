@@ -1,0 +1,5 @@
+global:
+  namespaces:
+  - Tenant1
+  - Tenant2
+  - Tenant3

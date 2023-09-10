@@ -1,0 +1,9 @@
+dependencies:
+- name: tenant_common
+  repository: file://charts/tenant_common
+  version: 0.1.0
+- name: nginx
+  repository: oci://registry-1.docker.io/bitnamicharts
+  version: 15.2.1
+digest: sha256:6e156458a5b495195ea0d1e266c5efa894ccb18f95ac97addce86f07feba6810
+generated: "2023-09-10T22:26:46.855392775+05:30"

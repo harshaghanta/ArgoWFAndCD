@@ -1,0 +1,7 @@
+{{- range .Values.global.namespaces }}
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: {{ . | lower | quote }}
+{{- end  }}
